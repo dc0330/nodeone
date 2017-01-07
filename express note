@@ -1,0 +1,6 @@
+express 4.14.0 
+安装到全局并没成功不知何故
+从4.0开始 命令行工具就已经分出来了 需单独安装npm install -g express-generator
+express.createuser 方法已经过时，这里直接用express（）
+安装网站框架 cd microblog && npm install
+启动 SET DEBUG=microblog:* & npm start 或者 npm start
